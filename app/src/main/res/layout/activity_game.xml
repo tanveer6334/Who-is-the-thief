@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.developer.rex.whosthethief.GameActivity">
+
+
+    <Button
+        android:id="@+id/playBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sub"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:onClick="play"
+        android:text="Lottery"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/playBtn"
+        android:layout_alignStart="@+id/playBtn"
+        android:layout_below="@+id/rg1"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:onClick="submit"
+        android:gravity="center"
+        android:text="Guess Him"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/n4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/n3"
+        android:layout_alignStart="@+id/n3"
+        android:layout_below="@+id/n3"
+        android:layout_marginTop="24dp"
+        android:text="x4"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/pl4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/n4"
+        android:layout_alignBottom="@+id/n4"
+        android:layout_alignLeft="@+id/pl3"
+        android:layout_alignStart="@+id/pl3"
+        android:text="p1"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/s4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pl4"
+        android:layout_alignBottom="@+id/pl4"
+        android:layout_alignLeft="@+id/s3"
+        android:layout_alignStart="@+id/s3"
+        android:text="s4"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/n3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/n2"
+        android:layout_alignStart="@+id/n2"
+        android:layout_below="@+id/n2"
+        android:layout_marginTop="23dp"
+        android:text="x3"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/pl3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="p1"
+        android:layout_alignBaseline="@+id/n3"
+        android:layout_alignBottom="@+id/n3"
+        android:layout_alignLeft="@+id/pl2"
+        android:layout_alignStart="@+id/pl2"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/s3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pl3"
+        android:layout_alignBottom="@+id/pl3"
+        android:layout_alignLeft="@+id/s2"
+        android:layout_alignStart="@+id/s2"
+        android:text="s3"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/n2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/n1"
+        android:layout_alignStart="@+id/n1"
+        android:layout_below="@+id/n1"
+        android:layout_marginTop="24dp"
+        android:text="x2"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/pl2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="p1"
+        android:layout_alignBaseline="@+id/n2"
+        android:layout_alignBottom="@+id/n2"
+        android:layout_alignLeft="@+id/pl1"
+        android:layout_alignStart="@+id/pl1"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/s2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pl2"
+        android:layout_alignBottom="@+id/pl2"
+        android:layout_alignLeft="@+id/s1"
+        android:layout_alignStart="@+id/s1"
+        android:text="s2"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/n1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="40dp"
+        android:text="x1"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/pl1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/n1"
+        android:layout_alignBottom="@+id/n1"
+        android:layout_marginLeft="80dp"
+        android:layout_toEndOf="@+id/n1"
+        android:layout_toRightOf="@+id/n1"
+        android:text="p1"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/s1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/pl1"
+        android:layout_alignBottom="@+id/pl1"
+        android:layout_marginLeft="80dp"
+        android:layout_toEndOf="@+id/pl2"
+        android:layout_toRightOf="@+id/pl2"
+        android:text="s1"
+        tools:ignore="HardcodedText" />
+
+
+    <TextView
+        android:id="@+id/robberlbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/thieflbl"
+        android:layout_alignBottom="@+id/thieflbl"
+        android:layout_toEndOf="@+id/s4"
+        android:layout_toRightOf="@+id/s4"
+        android:text="Robber is:"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+    <TextView
+        android:id="@+id/mTextField"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/n4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Press Lottery Button To Start the Game!"
+        android:textColor="@color/colorAccent"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:ignore="HardcodedText" />
+
+    <TextView
+        android:id="@+id/thieflbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/n4"
+        android:layout_alignStart="@+id/n4"
+        android:layout_centerVertical="true"
+        android:text="Thief is:"
+        android:textColor="@color/colorPrimary"
+        android:layout_below="@id/mTextField"
+        android:layout_marginTop="15dp"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:id="@+id/rg1"
+        android:layout_below="@+id/thieflbl"
+        android:layout_alignLeft="@+id/thieflbl"
+        android:layout_alignStart="@+id/thieflbl">
+
+        <RadioButton
+            android:id="@+id/r1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rg2"
+            android:layout_alignLeft="@+id/rg1"
+            android:layout_alignStart="@+id/rg1"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            tools:ignore="ObsoleteLayoutParam,SmallSp" />
+
+        <RadioButton
+            android:id="@+id/r2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/rg1"
+        android:layout_alignLeft="@+id/robberlbl"
+        android:layout_alignStart="@+id/robberlbl">
+
+
+        <RadioButton
+            android:id="@+id/r3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rg2"
+            android:layout_alignLeft="@+id/rg2"
+            android:layout_alignStart="@+id/rg2"
+            android:textSize="10sp"
+            tools:ignore="DuplicateIds,ObsoleteLayoutParam,SmallSp" />
+        <RadioButton
+            android:id="@+id/r4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="10sp"
+            tools:ignore="SmallSp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/BackBtn"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/playBtn"
+        android:layout_toRightOf="@+id/playBtn"
+        android:onClick="back"
+        android:text="Try Again"
+        android:textColor="@color/colorPrimary"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText" />
+
+
+</RelativeLayout>
