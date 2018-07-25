@@ -18,7 +18,7 @@ import java.util.Random;
 
 public class GameActivity extends AppCompatActivity {
     String no;
-    String[] Rank = {"","Judge", "Police", "Thief", "Robber"};
+    String[] Rank = {"","Police", "Judge", "Thief", "Robber"};
     Random rand = new Random();
     List<Integer> myList = new ArrayList<Integer>();
     Integer[] RankInt;
